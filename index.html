@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vellore Institute of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="vit logo.png" alt="">
+            </a>
+            <span class="iclst">ICLST 2024</span>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>      
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+        <a href="#">About Us</a>
+        <div class="dropdown-content">
+            <a href="host.html">Host Institution</a>
+            <a href="committe.html">Committee</a>
+        </div>
+    </li>
+    <li><a href="papers.html">Call for Papers</a></li>
+    <li><a href="program.html">Program</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li id="hidden-option"><a href="prev_confrence.html">Previous Conferences</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+</ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>INTERNATIONAL CONFERENCE <br> ON <br> LAW, SCIENCE AND TECHNOLOGY</h1>
+</div>
+    </section>
+
+    <div class="org">
+        <p>
+            <b>Organised by:</b> VIT School of Law, VIT Chennai
+        </p>
+    </div>
+
+    <div class="home-about">
+        <h1>ABOUT</h1>
+       <div class="about-content">
+        
+        <p class=" para para-1">
+            <b>International Conference on Law, Science and Technology (ICLST)</b> is organized by the VIT School of Law of Vellore Institute of Technology (VIT), Chennai, India with diverse themes that encompasses the evolving intersection of law, science and technology. The objective of ICLST is to harmoniously bridge the gap between the ever-evolving landscape of scientific and technological advancements and the nuanced facets of law.
+        </p>
+        <p class="para para-2">
+            By bringing together brilliant minds and fostering engaging dialogues, this conference endeavors to unravel the complexities, challenges, and opportunities through an interdisciplinary and multidisciplinary approach in Asian countries. The conference is an opportunity to identify solutions that leverage science and technology as a catalyst for development while also ensuring legal safeguards to address emerging ethical, privacy, and security concerns in Asia.
+        </p>
+        <p class="para para-3">
+            ICLST is a platform for the free exchange of ideas and robust discussions among esteemed judges, advocates, scientists, academicians, dedicated researchers, policy makers and enthusiastic students within the realm of law, science and technology. The conference serves as an invaluable platform designed to foster collaboration, critical thinking, and the dissemination of groundbreaking insights. Our aim is to encourage publications of innovative research transcribed into academic writings by scholars in <b>SCOPUS</b> indexed journals.
+        </p>
+
+        <p class="para"><b>We invite papers from the following areas:</b></p>
+        <ul class="para">
+            <li>Education</li>
+            <li>Engineering</li>
+            <li>Law</li>
+            <li>Social Sciences</li>
+            <li>Science</li>
+            <li>Technology</li>
+        </ul>
+
+        <p class="para"><a href="papers.html" class="blink"><b>Click here</b></a> for call for papers</p> <br>
+
+        <p class="para para-4">
+            Join us in this immersive experience where ideas converge, knowledge flourishes, and collaborations spark innovations that transcend boundaries.
+        </p>
+       </div>
+    </div>
+    <div class="home-imp">
+        <h1 class="imp-dates">IMPORTANT DATES</h1>
+        <div class="imp-content">
+            <b>Last Date for Abstract Submission:</b> February 10th , 2024 <br>
+            <b>Confirmation of Abstract:</b> February 12th, 2024 <br>
+            <b>Submission of Full Paper:</b> March 5th, 2024 <br>
+            <b>Dates of Conference:</b> March 22nd and 23rd, 2024 <br>
+            <p style="color: red;">*These dates are tentative and may be subject to change.</p>
+        </div>
+    </div>
+    <div class="home-pub">
+        <h1 class="publications">PUBLICATION</h1>
+        <div class="pub-content">
+            Selected Articles will be published in <b>SCOPUS Indexed</b>/ <b> UGC Care listed</b>/ <b>Peer-reviewed journals</b>/ <b>Edited Book</b>. Publication charges will
+            be borne by the authors separately.
+
+            <br>
+            <br>
+            <p><a href="Iclst.pdf" download="ICLST brochure.pdf" class="blink"><b>Click here</b></a> to download brochure</p>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            For more details mail us to : <a href="mailto:chennai.iclst@vit.ac.in">chennai.iclst@vit.ac.in</a>
+        </div>
+        <div class="footer-logo">
+            <img src="footer vit logo.jpg" alt="">
+        </div>
+    </div>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+</body>
+</html>

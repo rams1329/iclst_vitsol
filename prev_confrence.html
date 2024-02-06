@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vellore Institute of Technology</title>
+    <link rel="stylesheet" href="prev_confrence.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="vit logo.png" alt="">
+            </a>
+            <span class="iclst">ICLST 2024</span>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>      
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+        <a href="#">About Us</a>
+        <div class="dropdown-content">
+            <a href="host.html">Host Institution</a>
+            <a href="committe.html">Committee</a>
+        </div>
+    </li>
+    <li><a href="papers.html">Call for Papers</a></li>
+    <li><a href="program.html">Program</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="prev_confrence.html">Previous Conferences</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+</ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>INTERNATIONAL CONFERENCE <br> ON <br> LAW, SCIENCE AND TECHNOLOGY</h1>
+</div>
+    </section>
+
+    <div class="org">
+        <p>
+            <b>Organised by:</b> Vit School of Law , VIT Chennai
+        </p>
+    </div>
+
+    <div class="prev-conference">
+        <h1 class="imp-dates">PREVIOUS CONFERENCES</h1>
+        <div class="prev-conference-content">
+            <p>TBD</p>
+        </div>
+    </div>
+  
+    <div class="footer">
+        <div class="footer-content">
+            For more details mail us to : <a href="mailto:chennai.iclst@vit.ac.in">chennai.iclst@vit.ac.in</a>
+        </div>
+        <div class="footer-logo">
+            <img src="footer vit logo.jpg" alt="">
+        </div>
+    </div>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+</body>
+</html>
